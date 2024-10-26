@@ -1,0 +1,11 @@
+<addon id="script.kodi.setup" version="1.0.0" name="Kodi Setup Script" provider-name="YourName">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="kodi_setup.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Kodi setup script to install Fen Light, CocoScrapers, Fentastic, and configure settings.</summary>
+        <description lang="en">This script automates the process of setting up Kodi with Fen Light, CocoScrapers, Fentastic, and basic configurations.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
